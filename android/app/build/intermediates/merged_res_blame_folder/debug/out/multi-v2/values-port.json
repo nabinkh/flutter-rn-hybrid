@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.androiddemo.app-mergeDebugResources-67:/values-port/values-port.xml",
+            "outputFile": "com.example.flutter_merger.app-mergeDebugResources-76:/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "/Users/nabin/.gradle/caches/transforms-3/39eb17b7835694587388bfbaeb9c0bdb/transformed/appcompat-1.6.1/res/values-port/values-port.xml",
+                    "source": "/Users/nabin/.gradle/caches/transforms-3/e7632a94f554a8a4b3c784344addd486/transformed/appcompat-1.6.1/res/values-port/values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

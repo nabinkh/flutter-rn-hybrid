@@ -14,7 +14,7 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
-import com.example.flutter_merger.databinding.ActivityFlutterBinding;
+//import com.example.flutter_merger.databinding.ActivityFlutterBinding;
 
 public class FlutterActivity extends io.flutter.embedding.android.FlutterActivity {
     @Override

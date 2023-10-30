@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.androiddemo.app-mergeDebugResources-67:/values-da/values-da.xml",
+            "outputFile": "com.example.flutter_merger.app-mergeDebugResources-76:/values-da/values-da.xml",
             "map": [
                 {
-                    "source": "/Users/nabin/.gradle/caches/transforms-3/39eb17b7835694587388bfbaeb9c0bdb/transformed/appcompat-1.6.1/res/values-da/values-da.xml",
+                    "source": "/Users/nabin/.gradle/caches/transforms-3/e7632a94f554a8a4b3c784344addd486/transformed/appcompat-1.6.1/res/values-da/values-da.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,41 @@
                     }
                 },
                 {
-                    "source": "/Users/nabin/.gradle/caches/transforms-3/3a69f1bf5d6c688ff6d2f793e60a5fc1/transformed/ui-1.4.0/res/values-da/values-da.xml",
+                    "source": "/Users/nabin/.gradle/caches/transforms-3/e6e14c8ce83957653e5d636fc7f09ffc/transformed/jetified-material3-1.0.0/res/values-da/values-da.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,130,206",
+                        "endColumns": "74,75,74",
+                        "endOffsets": "125,201,276"
+                    },
+                    "to": {
+                        "startLines": "43,46,49",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "3882,4151,4373",
+                        "endColumns": "74,75,74",
+                        "endOffsets": "3952,4222,4443"
+                    }
+                },
+                {
+                    "source": "/Users/nabin/.gradle/caches/transforms-3/f1164503340aede7d88db0d60d3a6483/transformed/core-1.9.0/res/values-da/values-da.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "115",
+                        "startColumns": "4",
+                        "startOffsets": "9500",
+                        "endColumns": "100",
+                        "endOffsets": "9596"
+                    }
+                },
+                {
+                    "source": "/Users/nabin/.gradle/caches/transforms-3/848b989d0d7d1502c242b71c0600c196/transformed/jetified-ui-1.4.0/res/values-da/values-da.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +72,7 @@
                     }
                 },
                 {
-                    "source": "/Users/nabin/.gradle/caches/transforms-3/b5ce8d45f396651a4d52c374545b95bf/transformed/material-1.8.0/res/values-da/values-da.xml",
+                    "source": "/Users/nabin/.gradle/caches/transforms-3/4305abacaad56b3dfdb9c7126bfd8836/transformed/material-1.8.0/res/values-da/values-da.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -57,24 +91,7 @@
                     }
                 },
                 {
-                    "source": "/Users/nabin/.gradle/caches/transforms-3/6e0b3b6b04bbd3ef38359b682c358a46/transformed/material3-1.0.0/res/values-da/values-da.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,130,206",
-                        "endColumns": "74,75,74",
-                        "endOffsets": "125,201,276"
-                    },
-                    "to": {
-                        "startLines": "43,46,49",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "3882,4151,4373",
-                        "endColumns": "74,75,74",
-                        "endOffsets": "3952,4222,4443"
-                    }
-                },
-                {
-                    "source": "/Users/nabin/.gradle/caches/transforms-3/76e1b7a33937140b56d72848db6c8fe9/transformed/navigation-ui-2.5.3/res/values-da/values-da.xml",
+                    "source": "/Users/nabin/.gradle/caches/transforms-3/6872c481466aaf08261034d43b7f2a6d/transformed/navigation-ui-2.5.3/res/values-da/values-da.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -88,23 +105,6 @@
                         "startOffsets": "8590,8695",
                         "endColumns": "104,108",
                         "endOffsets": "8690,8799"
-                    }
-                },
-                {
-                    "source": "/Users/nabin/.gradle/caches/transforms-3/d30260cf74ef34712be430be244245c6/transformed/core-1.9.0/res/values-da/values-da.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "115",
-                        "startColumns": "4",
-                        "startOffsets": "9500",
-                        "endColumns": "100",
-                        "endOffsets": "9596"
                     }
                 }
             ]

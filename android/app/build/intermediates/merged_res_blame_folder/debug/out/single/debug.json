@@ -1,90 +1,118 @@
 [
     {
-        "merged": "com.example.androiddemo.app-merged_res-69:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.androiddemo.app-main-71:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.example.flutter_merger.app-merged_res-78:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.flutter_merger.app-main-80:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "com.example.androiddemo.app-merged_res-69:/layout_activity_second.xml.flat",
-        "source": "com.example.androiddemo.app-main-71:/layout/activity_second.xml"
+        "merged": "com.example.flutter_merger.app-merged_res-78:/layout_fragment_notifications.xml.flat",
+        "source": "com.example.flutter_merger.app-main-80:/layout/fragment_notifications.xml"
     },
     {
-        "merged": "com.example.androiddemo.app-merged_res-69:/navigation_nav_graph.xml.flat",
-        "source": "com.example.androiddemo.app-main-71:/navigation/nav_graph.xml"
+        "merged": "com.example.flutter_merger.app-merged_res-78:/drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "com.example.flutter_merger.app-main-80:/drawable/ic_dashboard_black_24dp.xml"
     },
     {
-        "merged": "com.example.androiddemo.app-merged_res-69:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.androiddemo.app-main-71:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.example.flutter_merger.app-merged_res-78:/layout_rn_activity.xml.flat",
+        "source": "com.example.flutter_merger.app-main-80:/layout/rn_activity.xml"
     },
     {
-        "merged": "com.example.androiddemo.app-merged_res-69:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.androiddemo.app-main-71:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "com.example.flutter_merger.app-merged_res-78:/navigation_mobile_navigation.xml.flat",
+        "source": "com.example.flutter_merger.app-main-80:/navigation/mobile_navigation.xml"
     },
     {
-        "merged": "com.example.androiddemo.app-merged_res-69:/layout_activity_second2.xml.flat",
-        "source": "com.example.androiddemo.app-main-71:/layout/activity_second2.xml"
+        "merged": "com.example.flutter_merger.app-merged_res-78:/drawable-v21_launch_background.xml.flat",
+        "source": "com.example.flutter_merger.app-main-80:/drawable-v21/launch_background.xml"
     },
     {
-        "merged": "com.example.androiddemo.app-merged_res-69:/layout_content_second.xml.flat",
-        "source": "com.example.androiddemo.app-main-71:/layout/content_second.xml"
+        "merged": "com.example.flutter_merger.app-merged_res-78:/layout_content_flutter.xml.flat",
+        "source": "com.example.flutter_merger.app-main-80:/layout/content_flutter.xml"
     },
     {
-        "merged": "com.example.androiddemo.app-merged_res-69:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.androiddemo.app-main-71:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "com.example.flutter_merger.app-merged_res-78:/layout_activity_rnactivity2.xml.flat",
+        "source": "com.example.flutter_merger.app-main-80:/layout/activity_rnactivity2.xml"
     },
     {
-        "merged": "com.example.androiddemo.app-merged_res-69:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.androiddemo.app-main-71:/xml/data_extraction_rules.xml"
+        "merged": "com.example.flutter_merger.app-merged_res-78:/layout_fragment_first2.xml.flat",
+        "source": "com.example.flutter_merger.app-main-80:/layout/fragment_first2.xml"
     },
     {
-        "merged": "com.example.androiddemo.app-merged_res-69:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.androiddemo.app-main-71:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.flutter_merger.app-merged_res-78:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.example.flutter_merger.app-main-80:/menu/bottom_nav_menu.xml"
     },
     {
-        "merged": "com.example.androiddemo.app-merged_res-69:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.androiddemo.app-main-71:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "com.example.flutter_merger.app-merged_res-78:/layout_activity_flutter.xml.flat",
+        "source": "com.example.flutter_merger.app-main-80:/layout/activity_flutter.xml"
     },
     {
-        "merged": "com.example.androiddemo.app-merged_res-69:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.androiddemo.app-main-71:/drawable/ic_launcher_foreground.xml"
+        "merged": "com.example.flutter_merger.app-merged_res-78:/navigation_nav_graph.xml.flat",
+        "source": "com.example.flutter_merger.app-main-80:/navigation/nav_graph.xml"
     },
     {
-        "merged": "com.example.androiddemo.app-merged_res-69:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.androiddemo.app-main-71:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.example.flutter_merger.app-merged_res-78:/layout_fragment_dashboard.xml.flat",
+        "source": "com.example.flutter_merger.app-main-80:/layout/fragment_dashboard.xml"
     },
     {
-        "merged": "com.example.androiddemo.app-merged_res-69:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.androiddemo.app-main-71:/drawable/ic_launcher_background.xml"
+        "merged": "com.example.flutter_merger.app-merged_res-78:/layout_content_rnactivity.xml.flat",
+        "source": "com.example.flutter_merger.app-main-80:/layout/content_rnactivity.xml"
     },
     {
-        "merged": "com.example.androiddemo.app-merged_res-69:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.androiddemo.app-main-71:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "com.example.flutter_merger.app-merged_res-78:/drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "com.example.flutter_merger.app-main-80:/drawable/ic_notifications_black_24dp.xml"
     },
     {
-        "merged": "com.example.androiddemo.app-merged_res-69:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.androiddemo.app-main-71:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "com.example.flutter_merger.app-merged_res-78:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.flutter_merger.app-main-80:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.example.androiddemo.app-merged_res-69:/layout_fragment_first.xml.flat",
-        "source": "com.example.androiddemo.app-main-71:/layout/fragment_first.xml"
+        "merged": "com.example.flutter_merger.app-merged_res-78:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.flutter_merger.app-main-80:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.example.androiddemo.app-merged_res-69:/layout_fragment_second.xml.flat",
-        "source": "com.example.androiddemo.app-main-71:/layout/fragment_second.xml"
+        "merged": "com.example.flutter_merger.app-merged_res-78:/layout_fragment_second2.xml.flat",
+        "source": "com.example.flutter_merger.app-main-80:/layout/fragment_second2.xml"
     },
     {
-        "merged": "com.example.androiddemo.app-merged_res-69:/xml_backup_rules.xml.flat",
-        "source": "com.example.androiddemo.app-main-71:/xml/backup_rules.xml"
+        "merged": "com.example.flutter_merger.app-merged_res-78:/layout_activity_rnactivity.xml.flat",
+        "source": "com.example.flutter_merger.app-main-80:/layout/activity_rnactivity.xml"
     },
     {
-        "merged": "com.example.androiddemo.app-merged_res-69:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.androiddemo.app-main-71:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.flutter_merger.app-merged_res-78:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.flutter_merger.app-main-80:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.example.androiddemo.app-merged_res-69:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.androiddemo.app-main-71:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "com.example.flutter_merger.app-merged_res-78:/layout_fragment_first.xml.flat",
+        "source": "com.example.flutter_merger.app-main-80:/layout/fragment_first.xml"
     },
     {
-        "merged": "com.example.androiddemo.app-merged_res-69:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.androiddemo.app-main-71:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "com.example.flutter_merger.app-merged_res-78:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.flutter_merger.app-main-80:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.flutter_merger.app-merged_res-78:/layout-w936dp_rn_activity.xml.flat",
+        "source": "com.example.flutter_merger.app-main-80:/layout-w936dp/rn_activity.xml"
+    },
+    {
+        "merged": "com.example.flutter_merger.app-merged_res-78:/layout_fragment_home.xml.flat",
+        "source": "com.example.flutter_merger.app-main-80:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.flutter_merger.app-merged_res-78:/navigation_nav_graph2.xml.flat",
+        "source": "com.example.flutter_merger.app-main-80:/navigation/nav_graph2.xml"
+    },
+    {
+        "merged": "com.example.flutter_merger.app-merged_res-78:/layout-w1240dp_rn_activity.xml.flat",
+        "source": "com.example.flutter_merger.app-main-80:/layout-w1240dp/rn_activity.xml"
+    },
+    {
+        "merged": "com.example.flutter_merger.app-merged_res-78:/layout_main_activity_layout.xml.flat",
+        "source": "com.example.flutter_merger.app-main-80:/layout/main_activity_layout.xml"
+    },
+    {
+        "merged": "com.example.flutter_merger.app-merged_res-78:/drawable_ic_home_black_24dp.xml.flat",
+        "source": "com.example.flutter_merger.app-main-80:/drawable/ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "com.example.flutter_merger.app-merged_res-78:/layout_fragment_second.xml.flat",
+        "source": "com.example.flutter_merger.app-main-80:/layout/fragment_second.xml"
     }
 ]

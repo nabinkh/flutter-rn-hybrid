@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.androiddemo.app-mergeDebugResources-67:/values-h480dp-land-v13/values-h480dp-land-v13.xml",
+            "outputFile": "com.example.flutter_merger.app-mergeDebugResources-76:/values-h480dp-land-v13/values-h480dp-land-v13.xml",
             "map": [
                 {
-                    "source": "/Users/nabin/.gradle/caches/transforms-3/b5ce8d45f396651a4d52c374545b95bf/transformed/material-1.8.0/res/values-h480dp-land-v13/values-h480dp-land-v13.xml",
+                    "source": "/Users/nabin/.gradle/caches/transforms-3/4305abacaad56b3dfdb9c7126bfd8836/transformed/material-1.8.0/res/values-h480dp-land-v13/values-h480dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

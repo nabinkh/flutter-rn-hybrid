@@ -1,10 +1,40 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.androiddemo.app-mergeDebugResources-67:/values-v23/values-v23.xml",
+            "outputFile": "com.example.flutter_merger.app-mergeDebugResources-76:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/nabin/.gradle/caches/transforms-3/fe50a78441d3693f8ba7dfa79c02047d/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
+                    "source": "/Users/nabin/.gradle/caches/transforms-3/e7632a94f554a8a4b3c784344addd486/transformed/appcompat-1.6.1/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1225,1975,2094,2221,2443,2667,2782,2889,3002",
+                        "endLines": "2,3,4,5,19,33,34,35,38,42,43,44,45,49",
+                        "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
+                        "endOffsets": "185,320,395,482,1220,1970,2089,2216,2438,2662,2777,2884,2997,3227"
+                    }
+                },
+                {
+                    "source": "/Users/nabin/brainants/flutter_merger/android/app/src/main/res/values-v23/themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "64",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "428"
+                    },
+                    "to": {
+                        "startLines": "53",
+                        "startColumns": "4",
+                        "startOffsets": "3382",
+                        "endLines": "58",
+                        "endColumns": "12",
+                        "endOffsets": "3696"
+                    }
+                },
+                {
+                    "source": "/Users/nabin/.gradle/caches/transforms-3/0fbe9ab4cd0e7ee338d9f23a1cd51a66/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,18 +53,7 @@
                     }
                 },
                 {
-                    "source": "/Users/nabin/.gradle/caches/transforms-3/39eb17b7835694587388bfbaeb9c0bdb/transformed/appcompat-1.6.1/res/values-v23/values-v23.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,190,325,400,487,1225,1975,2094,2221,2443,2667,2782,2889,3002",
-                        "endLines": "2,3,4,5,19,33,34,35,38,42,43,44,45,49",
-                        "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
-                        "endOffsets": "185,320,395,482,1220,1970,2089,2216,2438,2662,2777,2884,2997,3227"
-                    }
-                },
-                {
-                    "source": "/Users/nabin/.gradle/caches/transforms-3/b5ce8d45f396651a4d52c374545b95bf/transformed/material-1.8.0/res/values-v23/values-v23.xml",
+                    "source": "/Users/nabin/.gradle/caches/transforms-3/4305abacaad56b3dfdb9c7126bfd8836/transformed/material-1.8.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,5,8,13,17,20,23,26,31,34,38",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -46,29 +65,10 @@
                     "to": {
                         "startLines": "59,62,65,70,74,77,80,83,88,91,95",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "3709,3925,4135,4455,4692,4899,5106,5309,5641,5843,6108",
+                        "startOffsets": "3701,3917,4127,4447,4684,4891,5098,5301,5633,5835,6100",
                         "endLines": "61,64,69,73,76,79,82,87,90,94,98",
                         "endColumns": "10,10,10,10,10,10,10,10,10,10,10",
-                        "endOffsets": "3920,4130,4450,4687,4894,5101,5304,5636,5838,6103,6376"
-                    }
-                },
-                {
-                    "source": "/Users/nabin/brainants/Android_demo/app/src/main/res/values-v23/themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "64",
-                        "endLines": "7",
-                        "endColumns": "12",
-                        "endOffsets": "436"
-                    },
-                    "to": {
-                        "startLines": "53",
-                        "startColumns": "4",
-                        "startOffsets": "3382",
-                        "endLines": "58",
-                        "endColumns": "12",
-                        "endOffsets": "3704"
+                        "endOffsets": "3912,4122,4442,4679,4886,5093,5296,5628,5830,6095,6368"
                     }
                 }
             ]

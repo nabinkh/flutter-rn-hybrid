@@ -51,7 +51,7 @@
     <style name="CardView" parent="Base.CardView">
         <item name="cardBackgroundColor">?android:attr/colorBackgroundFloating</item>
     </style>
-    <style name="Theme.AndroidDemo" parent="Base.Theme.AndroidDemo">
+    <style name="Theme.Android" parent="Base.Theme.Android">
         
         <item name="android:navigationBarColor">@android:color/transparent</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
