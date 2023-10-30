@@ -22,13 +22,21 @@ if (flutterVersionName == null) {
 }
 
 apply plugin: 'com.android.application'
+//rn
+apply plugin: "com.facebook.react"
+//rn-end
 apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
     namespace "com.example.flutter_merger"
-    compileSdkVersion flutter.compileSdkVersion
-    ndkVersion flutter.ndkVersion
+//    compileSdkVersion flutter.compileSdkVersion
+//    ndkVersion flutter.ndkVersion
+    //rn
+    ndkVersion rootProject.ext.ndkVersion
+
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    //rn end
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -40,11 +48,28 @@ android {
         applicationId "com.example.flutter_merger"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
-        minSdkVersion 21
-        targetSdkVersion flutter.targetSdkVersion
-        versionCode flutterVersionCode.toInteger()
-        versionName flutterVersionName
+//        minSdkVersion 21
+//        targetSdkVersion flutter.targetSdkVersion
+//        versionCode flutterVersionCode.toInteger()
+//        versionName flutterVersionName
+        //rn
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+        //rn end
+
     }
+//rn
+    signingConfigs {
+//        debug {
+//            storeFile file('debug.keystore')
+//            storePassword 'android'
+//            keyAlias 'androiddebugkey'
+//            keyPassword 'android'
+//        }
+    }
+    //rn end
 
     buildTypes {
         release {
@@ -56,6 +81,9 @@ android {
     buildFeatures {
         viewBinding true
     }
+}
+
+react {
 }
 
 flutter {
@@ -90,4 +118,21 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+
+
+    implementation("com.facebook.react:react-android")
+
+    debugImplementation("com.facebook.flipper:flipper:0.182.0")
+    debugImplementation("com.facebook.flipper:flipper-network-plugin:0.182.0") {
+        exclude group:'com.squareup.okhttp3', module:'okhttp'
+    }
+
+    debugImplementation("com.facebook.flipper:flipper-fresco-plugin:0.182.0")
+//    if (hermesEnabled.toBoolean()) {
+    implementation("com.facebook.react:hermes-android")
+//    } else {
+//        implementation jscFlavor
+//    }
 }
+apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)
+
