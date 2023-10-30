@@ -2,6 +2,10 @@ package com.example.flutter_merger;
 
 import android.os.Bundle;
 
+import com.facebook.react.ReactActivity;
+import com.facebook.react.ReactActivityDelegate;
+import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint;
+import com.facebook.react.defaults.DefaultReactActivityDelegate;
 import com.google.android.material.snackbar.Snackbar;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,38 +20,28 @@ import androidx.navigation.ui.NavigationUI;
 
 import com.example.flutter_merger.databinding.ActivityRnactivity2Binding;
 
-public class RNActivity extends AppCompatActivity {
+public class RNActivity extends ReactActivity {
 
-    private AppBarConfiguration appBarConfiguration;
-    private ActivityRnactivity2Binding binding;
-
+    /**
+     * Returns the name of the main component registered from JavaScript. This is used to schedule
+     * rendering of the component.
+     */
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-
-        binding = ActivityRnactivity2Binding.inflate(getLayoutInflater());
-        setContentView(binding.getRoot());
-
-        setSupportActionBar(binding.toolbar);
-
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_rnactivity);
-        appBarConfiguration = new AppBarConfiguration.Builder(navController.getGraph()).build();
-        NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
-
-        binding.fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAnchorView(R.id.fab)
-                        .setAction("Action", null).show();
-            }
-        });
+    protected String getMainComponentName() {
+        return "flutter_merger";
     }
 
+    /**
+     * Returns the instance of the {@link ReactActivityDelegate}. Here we use a util class {@link
+     * DefaultReactActivityDelegate} which allows you to easily enable Fabric and Concurrent React
+     * (aka React 18) with two boolean flags.
+     */
     @Override
-    public boolean onSupportNavigateUp() {
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_rnactivity);
-        return NavigationUI.navigateUp(navController, appBarConfiguration)
-                || super.onSupportNavigateUp();
+    protected ReactActivityDelegate createReactActivityDelegate() {
+        return new DefaultReactActivityDelegate(
+                this,
+                getMainComponentName(),
+                // If you opted-in for the New Architecture, we enable the Fabric Renderer.
+                DefaultNewArchitectureEntryPoint.getFabricEnabled());
     }
 }
