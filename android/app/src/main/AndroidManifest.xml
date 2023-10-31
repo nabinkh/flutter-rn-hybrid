@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
-
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:name=".MainApplication"
         android:icon="@mipmap/ic_launcher"
-        android:label="flutter_merger">
+        android:label="flutter_merger"
+        android:usesCleartextTraffic="true" 
+        >
         <activity
             android:name=".FlutterActivity"
             android:exported="false"
@@ -12,19 +14,9 @@
             android:theme="@style/Theme.Android" />
         <activity
             android:name=".RNActivity"
-            android:exported="true"
+            android:exported="false"
             android:label="@string/title_activity_rnactivity"
-            android:theme="@style/Theme.Android" >
-
-            <meta-data
-                android:name="io.flutter.embedding.android.NormalTheme"
-                android:resource="@style/NormalTheme" />
-
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            android:theme="@style/Theme.Android" > 
         </activity>
         <activity
             android:name=".MainActivity"
@@ -41,8 +33,15 @@
                  while the Flutter UI initializes. After that, this theme continues
                  to determine the Window background behind the Flutter UI.
             -->
+              <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
 
+            <meta-data
+                android:name="io.flutter.embedding.android.NormalTheme"
+                android:resource="@style/NormalTheme" />
 
         </activity>
         <!--
